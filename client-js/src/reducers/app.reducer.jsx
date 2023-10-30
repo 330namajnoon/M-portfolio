@@ -10,6 +10,7 @@ export const reducer = createSlice({
         SET_LOADING_FALSE:(state = initialState)=> {
             state.loading = false;
         },
+        
         SET_LOADING_TRUE:(state = initialState)=> {
             state.loading = true;
         }

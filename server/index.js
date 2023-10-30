@@ -1,13 +1,13 @@
 const {Server} = require("./Server.js");
 const {Get_Users, POST_users} = require("./Controls/users.control.js");
-const server = new Server();
+const server = new Server(4000, "./database");
 server.start();
 server.setControls(
     [
         [
-            "POST",
-            "/users",
-            POST_users,
+            "GET",
+            "/user",
+            Get_Users,
             null
         ]
     ]

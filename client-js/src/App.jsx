@@ -4,7 +4,7 @@ import Login from "./pages/Login";
 import { useSelector } from "react-redux";
 import Loading from "./components/Loading";
 import { useEffect } from "react";
-
+import axios from "axios"
 export default function App(props) {
     const { loading } = useSelector((state)=> state.appReducer);
     
@@ -15,13 +15,16 @@ export default function App(props) {
     useEffect(()=> {
         const userData = localStorage.getItem("userData");
         if (userData) {
-            
+
         }
+        // axios.post("http://localhost:4000/users",{}).then((res)=> {
+        //     console.log(res);
+        // })
     }, []);
 
     return (
         <>
-            { loading &&
+            { !loading ?
                 <BrowserRouter>
                     <Routes>
                         <Route path="/">
@@ -30,7 +33,7 @@ export default function App(props) {
                         </Route>
                     </Routes>
                 </BrowserRouter>
-                ||
+                :
                 <Loading  />
             }
         </>

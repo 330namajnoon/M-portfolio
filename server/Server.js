@@ -37,7 +37,7 @@ Server.prototype.setControls = function(controls = [{method: "GET" || "POST" || 
     this.controls.forEach(([method, path, action, file])=> {
         switch (method) {
             case "GET":
-                this.app.get(path, (req, res)=> {
+                this.app.get(path,multer().none(),(req, res)=> {
                     action(req, res);
                 })
                 break;
@@ -47,7 +47,7 @@ Server.prototype.setControls = function(controls = [{method: "GET" || "POST" || 
                         action(req, res);
                     })
                 }else {
-                    this.app.post(path ,(req, res)=> {
+                    this.app.post(path ,multer().none(),(req, res)=> {
                         action(req, res);
                     })
                 }
