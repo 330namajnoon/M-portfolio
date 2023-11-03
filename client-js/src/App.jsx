@@ -1,41 +1,34 @@
-import { BrowserRouter,Route,Routes} from "react-router-dom"
+import { BrowserRouter, Link, Route, Routes, useNavigate } from "react-router-dom"
 import Home from "./pages/Home";
-import Login from "./pages/Login";
-import { useSelector } from "react-redux";
+import Login from "./pages/login";
 import Loading from "./components/Loading";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import AppContext from "./contexts/app.context"
 import axios from "axios"
+import SignUp from "./pages/signup/SignUp";
+
 export default function App(props) {
-    const { loading } = useSelector((state)=> state.appReducer);
+    const [loading, setLoading] = useState(false);
     
-    async function login() {
-
-    }
-
-    useEffect(()=> {
-        const userData = localStorage.getItem("userData");
-        if (userData) {
-
-        }
-        // axios.post("http://localhost:4000/users",{}).then((res)=> {
-        //     console.log(res);
-        // })
-    }, []);
-
+    
     return (
         <>
-            { !loading ?
+            <AppContext.Provider value={{ setLoading }}>
                 <BrowserRouter>
                     <Routes>
                         <Route path="/">
-                            <Route index element={<Home />} />
-                            <Route path="login" element={<Login />} />
+                            <Route element={<Home />} />
+                            <Route element={<Login />} />
+                            <Route index element={<SignUp />} />
                         </Route>
                     </Routes>
+                    {loading ?
+                        <Loading /> : null
+                    }
                 </BrowserRouter>
-                :
-                <Loading  />
-            }
+            </AppContext.Provider>
         </>
     );
 }
+
+

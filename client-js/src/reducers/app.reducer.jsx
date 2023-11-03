@@ -1,21 +1,22 @@
-import { createSlice } from "@reduxjs/toolkit"
+
 const initialState = {
     loading: false,
+    userData: {
+        id: "",
+        name: ""
+    }
 }
 
-export const reducer = createSlice({
-    name: "app",
-    initialState,
-    reducers: {
-        SET_LOADING_FALSE:(state = initialState)=> {
-            state.loading = false;
-        },
-        
-        SET_LOADING_TRUE:(state = initialState)=> {
-            state.loading = true;
-        }
-    },
-})
 
-export const { SET_LOADING_TRUE,SET_LOADING_FALSE } = reducer.actions
-export default reducer.reducer;
+const reducer = (state = initialState, action) => {
+    switch (action.type) {
+        case "SET_LOADING":
+            console.log("setLoading");
+            state.loading = action.payload;
+            return {...state};
+        default:
+            return state;
+    }
+}
+
+export default reducer;

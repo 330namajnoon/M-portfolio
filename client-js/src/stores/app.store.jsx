@@ -1,7 +1,3 @@
-import { configureStore } from "@reduxjs/toolkit"
+import { createStore } from "redux"
 import appReducer from "../reducers/app.reducer"
-export default configureStore({
-    reducer: {
-        appReducer,
-    }
-})
+export default createStore(appReducer);

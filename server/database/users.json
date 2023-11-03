@@ -1,6 +1,8 @@
 [
     {
-        "id": "sina",
+        "id": "SINA_MAJNOON",
+        "email":"sina.majnoonhjk@gmail.com",
+        "password": "S4feri2585",
         "userData": {
             "NAME": "David",
             "LAST_NAME_1": "Colera",
@@ -43,6 +45,35 @@
                 {
                     "LANGUAGE": "Spanish",
                     "LEVEL": "B2"
+                }
+            ],
+            "PROJECTS": [
+                {
+                    "NAME":"Card Game",
+                    "IMAGE":"http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/juegodecartas.png",
+                    "TITLE":"Javascript-nodeJS-HTML-CSS",
+                    "DESCRIPTION":"",
+                    "URLS":[
+                        {
+                            "TYPE": "C",
+                            "NAME":"Code",
+                            "DESCRIPTIN": "",
+                            "URL": "https://glitch.com/edit/#!/shadowed-ionized-capri"
+                        },
+                        {
+                            "TYPE": "W",
+                            "NAME":"WEB URL",
+                            "DESCRIPTIN": "is an exciting online game for 2 or more players. To get started, players must register for the first time, choosing a username and photo. They can then invite other online players to join the fun. The object of the game is to have the sum of 11 with your cards and in addition there are three special cards, such as the J card, which can collect all cards except the K and Q cards, and the Q card. can only pick up the Q, while the K card can only pick up the K. Each player starts with four cards, which they can only see, and four cards on the table. As the game progresses, they are new cards are dealt and points are tracked until all 52 cards are used up.",
+                            "URL": "https://shadowed-ionized-capri.glitch.me/"
+                        }
+                    ],
+                    "MEDIA": [
+                        {
+                            "TYPE":"",
+                            "URL": "",
+                            "DESCRIPTION": ""
+                        }
+                    ]
                 }
             ]
         },
