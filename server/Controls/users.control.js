@@ -82,6 +82,8 @@ function Get_Users(req, res) {
         const user = users.find(u => u.id == req.query.id);
         if (user) {
             res.send({ error: null, data: user });
+            console.log("sdjbvsldj")
+
             return;
         } else {
             res.send({ error: "este usuario no existe" });

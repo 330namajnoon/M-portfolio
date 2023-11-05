@@ -1,0 +1,22 @@
+
+.teamColorChenge-container {
+    width: 70px;
+    height: 30px;
+    border: solid 1px black;
+    padding: 1px;
+    background-color: aqua;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 1s;
+    div {
+        transition: all 1s;
+        width: 30px;
+        height: 30px;
+        border: solid 2px black;
+        box-sizing: border-box;
+        background-color: aquamarine;
+        border-radius: 50px;
+    }
+}

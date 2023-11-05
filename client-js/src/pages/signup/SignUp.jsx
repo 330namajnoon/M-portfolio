@@ -26,24 +26,22 @@ export default function SignUp() {
     }
 
     function signup(email, password) {
-        console.log(form.current.checkValidity());
-        document.createElement("form").checkValidity()
-        // return new Promise((resolve, reject) => {
-        //     const formData = new FormData();
-        //     formData.append("email", email);
-        //     formData.append("password", password);
-        //     axios.post(`${config.URL}/signup`, formData).then(res => {
-        //         if (!res.data.error) {
-        //             console.log(res.data);
-        //             //navigate("login");
-        //         } else {
-        //             reject(res.data);
-        //         }
-        //     }).catch(error => {
-        //         reject(error);
+        return new Promise((resolve, reject) => {
+            const formData = new FormData();
+            formData.append("email", email);
+            formData.append("password", password);
+            axios.post(`${config.URL}/signup`, formData).then(res => {
+                if (!res.data.error) {
+                    //console.log(res.data);
+                    navigate("login");
+                } else {
+                    reject(res.data);
+                }
+            }).catch(error => {
+                reject(error);
 
-        //     })
-        // })
+            })
+        })
     }
     return (
         <div className="signup-container">
@@ -53,7 +51,7 @@ export default function SignUp() {
                 <input onChange={(e) => {setPassword(e.target.value)}} value={password} type="password" placeholder="Password:" />
                 <input onChange={(e) => {setConPassword(e.target.value)}} value={conPassword} type="password" placeholder="Continuar password:" />
                 <input className="signup-button" onClick={(e) => {
-                    if (!formIsValid([emal,password,conPassword])) {
+                    if (formIsValid([emal,password,conPassword])) {
                         signup(emal,password).then(res => {
 
                         }).catch(error => {

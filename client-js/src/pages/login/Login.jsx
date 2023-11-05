@@ -28,7 +28,7 @@ export default function Login() {
             axios.post(`${config.URL}/login`, formData).then((res) => {
                 if (!res.data.error) {
                     resolve(res.data);
-                    navigate("home");
+                    navigate("/home");
                 } else {
                     reject(res.data.error);
                 }

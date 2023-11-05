@@ -1,44 +1,58 @@
 [
     {
         "id": "SINA_MAJNOON",
-        "email":"sina.majnoonhjk@gmail.com",
+        "email": "sina.majnoonhjk@gmail.com",
         "password": "S4feri2585",
         "userData": {
-            "NAME": "David",
+            "NAME": "Sina",
             "LAST_NAME_1": "Colera",
             "LAST_NAME_2": "Plana",
             "TITLE": "Frontend Developer",
-            "DESCRIPTION":"Front-end developer focused on creating Web applications. I really like different projects that solve real problems.",
-            "CV_URL":"http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-majnoon-cv.pdf",
+            "DESCRIPTION": "Front-end developer focused on creating Web applications. I really like different projects that solve real problems.",
+            "CV_URL": "http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-majnoon-cv.pdf",
             "PLATFORMS": [
                 {
-                    "NAME":"Linkedin",
-                    "ICON":"http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-linkedin.png",
-                    "URL":"https://www.linkedin.com/in/sina-majnoon/"
+                    "NAME": "Linkedin",
+                    "ICON": "http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-linkedin.png",
+                    "URL": "https://www.linkedin.com/in/sina-majnoon/"
                 },
                 {
-                    "NAME":"Github",
-                    "ICON":"http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-github.png",
-                    "URL":"https://github.com/330namajnoon"
+                    "NAME": "Github",
+                    "ICON": "http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/sina-github.png",
+                    "URL": "https://github.com/330namajnoon"
                 }
             ],
-            "ABOUT_ME":"Hi, I'm Sina, a full-stack web developer. I'm 22 years old. I have acquired my skills on my own and I am highly committed to my work. I love learning and I am a highly decisive person in any situation that comes my way. I have acquired technical skills in web development technologies such as ReactJS, Angular and NodeJS. During my professional career, I have also worked as an interior designer for 3 years, where I have gained experience using Three.js and PlayCanvas to create interactive 3D projects. I consider myself a proactive, persevering and creative person, always looking for new challenges and innovative solutions to problems. In my spare time, I enjoy reading and keeping up with the latest trends in technology and design.",
-            "SKILLS":[
-                {"name":"Typescript", "value": 70},
-                {"name":"Javascript", "value": 90}
+            "ABOUT_ME": "Hi, I'm Sina, a full-stack web developer. I'm 22 years old. I have acquired my skills on my own and I am highly committed to my work. I love learning and I am a highly decisive person in any situation that comes my way. I have acquired technical skills in web development technologies such as ReactJS, Angular and NodeJS. During my professional career, I have also worked as an interior designer for 3 years, where I have gained experience using Three.js and PlayCanvas to create interactive 3D projects. I consider myself a proactive, persevering and creative person, always looking for new challenges and innovative solutions to problems. In my spare time, I enjoy reading and keeping up with the latest trends in technology and design.",
+            "SKILLS": [
+                {
+                    "name": "Typescript",
+                    "value": 70
+                },
+                {
+                    "name": "Javascript",
+                    "value": 90
+                }
             ],
             "ACADEMIC_DATA": [
                 {
                     "INFORMATION": "2022-Madrid Adecco",
                     "TITLE": "Full stack web programming",
-                    "SKILLS": ["Fundamentals of web development","Javascript","Databases","Frontend: ReacrJS","backend: NodeJS-PHP-JSP"]
+                    "SKILLS": [
+                        "Fundamentals of web development",
+                        "Javascript",
+                        "Databases",
+                        "Frontend: ReacrJS",
+                        "backend: NodeJS-PHP-JSP"
+                    ]
                 }
             ],
             "EXPERIENCES": [
                 {
                     "INFORMATION": "January 2018 - October 2021 (Turkey)",
                     "TITLE": "CNC machine programmer",
-                    "SKILLS": ["Programming of CNC machines and machining"]   
+                    "SKILLS": [
+                        "Programming of CNC machines and machining"
+                    ]
                 }
             ],
             "LANGUAGES": [
@@ -49,27 +63,27 @@
             ],
             "PROJECTS": [
                 {
-                    "NAME":"Card Game",
-                    "IMAGE":"http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/juegodecartas.png",
-                    "TITLE":"Javascript-nodeJS-HTML-CSS",
-                    "DESCRIPTION":"",
-                    "URLS":[
+                    "NAME": "Card Game",
+                    "IMAGE": "http://localhost:4000/MCD/sina.majnoonhjk@gmail.com/juegodecartas.png",
+                    "TITLE": "Javascript-nodeJS-HTML-CSS",
+                    "DESCRIPTION": "",
+                    "URLS": [
                         {
                             "TYPE": "C",
-                            "NAME":"Code",
+                            "NAME": "Code",
                             "DESCRIPTIN": "",
                             "URL": "https://glitch.com/edit/#!/shadowed-ionized-capri"
                         },
                         {
                             "TYPE": "W",
-                            "NAME":"WEB URL",
+                            "NAME": "WEB URL",
                             "DESCRIPTIN": "is an exciting online game for 2 or more players. To get started, players must register for the first time, choosing a username and photo. They can then invite other online players to join the fun. The object of the game is to have the sum of 11 with your cards and in addition there are three special cards, such as the J card, which can collect all cards except the K and Q cards, and the Q card. can only pick up the Q, while the K card can only pick up the K. Each player starts with four cards, which they can only see, and four cards on the table. As the game progresses, they are new cards are dealt and points are tracked until all 52 cards are used up.",
                             "URL": "https://shadowed-ionized-capri.glitch.me/"
                         }
                     ],
                     "MEDIA": [
                         {
-                            "TYPE":"",
+                            "TYPE": "",
                             "URL": "",
                             "DESCRIPTION": ""
                         }
@@ -77,8 +91,104 @@
                 }
             ]
         },
-        "colors": ["#F3DB06","#8F8F8F","#3F3F3F","#FFFFFF","#000000"],
+        "colors": [
+            "#F3DB06",
+            "#8F8F8F",
+            "#3F3F3F",
+            "#FFFFFF",
+            "#000000"
+        ],
         "font": ""
-
+    },
+    {
+        "id": "hH3ukbaMZh",
+        "email": "sina.cappac@gmail.com",
+        "password": "sina1234",
+        "userData": {
+            "NAME": "",
+            "LAST_NAME_1": "",
+            "LAST_NAME_2": "",
+            "EMAIL": "sina.cappac@gmail.com",
+            "TITLE": "",
+            "DESCRIPTION": "",
+            "CV_URL": "",
+            "PLATFORMS": [
+                {
+                    "NAME": "",
+                    "ICON": "",
+                    "URL": ""
+                }
+            ],
+            "ABOUT_ME": "",
+            "SKILLS": [
+                {
+                    "name": "",
+                    "value": 0
+                }
+            ],
+            "ACADEMIC_DATA": [
+                {
+                    "INFORMATION": "",
+                    "TITLE": "",
+                    "SKILLS": [
+                        ""
+                    ]
+                }
+            ],
+            "EXPERIENCES": [
+                {
+                    "INFORMATION": "",
+                    "TITLE": "",
+                    "SKILLS": [
+                        ""
+                    ]
+                }
+            ],
+            "LANGUAGES": [
+                {
+                    "LANGUAGE": "",
+                    "LEVEL": ""
+                }
+            ],
+            "PROJECTS": [
+                {
+                    "NAME": "",
+                    "IMAGE": "",
+                    "TITLE": "",
+                    "DESCRIPTION": "",
+                    "URLS": [
+                        {
+                            "TYPE": "",
+                            "NAME": "",
+                            "DESCRIPTIN": "",
+                            "URL": ""
+                        },
+                        {
+                            "TYPE": "",
+                            "NAME": "",
+                            "DESCRIPTIN": "",
+                            "URL": ""
+                        }
+                    ],
+                    "MEDIA": [
+                        {
+                            "TYPE": "",
+                            "URL": "",
+                            "DESCRIPTION": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "colors": [
+            [
+                "#F3DB06",
+                "#8F8F8F",
+                "#3F3F3F",
+                "#FFFFFF",
+                "#000000"
+            ]
+        ],
+        "font": ""
     }
 ]
